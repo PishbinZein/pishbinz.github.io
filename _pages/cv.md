@@ -2,21 +2,12 @@
 layout: archive
 title: "CV"
 permalink: /cv/
-<<<<<<< HEAD
-layout: page
----
-
-Here is my latest CV.
-
-<iframe src="{{ '/files/CV.pdf' | relative_url }}" width="100%" height="900px" style="border:none;"></iframe>
-=======
 author_profile: true
 redirect_from:
   - /resume
 ---
 
 {% include base_path %}
->>>>>>> parent of b2b3984 (replacing template)
 
 Education
 ======

@@ -1,17 +1,3 @@
-<<<<<<< HEAD
-# Basic
-title: "Zein Pishbin"
-description: "Academic webpage"
-locale: "en-US"
-
-url: "https://PishbinZ.github.io"
-baseurl: ""          # keep empty for username.github.io sites
-
-# Use a stable GitHub Pages supported theme
-theme: minima
-
-repository: "PishbinZ/PishbinZ.github.io"
-=======
 # Welcome to Jekyll!
 #
 # This config file is meant for settings that affect your entire site, values
@@ -27,45 +13,35 @@ title                    : "Your Name / Site Title"
 title_separator          : "-"
 name                     : &name "Your Name"
 description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
-url                      : https://PishbinZ.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
+url                      : https://academicpages.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "PishbinZein/PishbinZ.github.io"
->>>>>>> parent of b2b3984 (replacing template)
+repository               : "academicpages/academicpages.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
-<<<<<<< HEAD
-  name: "Zein Pishbin"
-  email: "zeinab.s.pishbin@gmail.com"
-  location: "Paris, France"
-  employer: "Université Paris Dauphine-PSL"
-  googlescholar: "https://scholar.google.com/citations?user=qSy13-cAAAAJ"
-  avatar: "files/profile.png"
-=======
   # Biographic information
   avatar           : "profile.png"
-  name             : "Zein Pishbin"
+  name             : "Your Sidebar Name"
   pronouns         : # example: "she/her"  
-  bio              : # "Short biography for the left-hand sidebar"
-  location         : "Paris, France"
-  employer         : "Université Paris Dauphine-PSL"
+  bio              : "Short biography for the left-hand sidebar"
+  location         : "Earth"
+  employer         : "Red Brick University"
   uri              : # URL
-  email            : "zeinab.s.pishbin [at] gmail.com" 
->>>>>>> parent of b2b3984 (replacing template)
+  email            : "none@example.org" 
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=qSy13-cAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : # URL
+  orcid            : "https://orcid.org/yourorcidurl"
   semantic         : # URL
   ssrn             : # URL
-  pubmed           : # URL
+  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : # URL
   scopus           : # URL
   zotero           : # URL
@@ -75,13 +51,13 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : # URL
+  github           : "academicpages"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
   artstation       : # Username
-  bluesky          : # "bsky.app" # Replace this with you Bluesky username
+  bluesky          : "bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -189,9 +165,6 @@ include:
   - .htaccess
   - _pages
   - files
-<<<<<<< HEAD
-  - assets
-=======
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -224,13 +197,10 @@ keep_files:
   - .svn
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
->>>>>>> parent of b2b3984 (replacing template)
 
 
 # Conversion
 markdown: kramdown
-<<<<<<< HEAD
-=======
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
@@ -263,7 +233,6 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
->>>>>>> parent of b2b3984 (replacing template)
 
 
 # These settings control how pages and collections are included in the site
@@ -281,12 +250,9 @@ defaults:
       related: true
   # _pages
   - scope:
-      path: "_pages"
+      path: ""
       type: pages
     values:
-<<<<<<< HEAD
-      layout: page
-=======
       layout: single
       author_profile: true
   # _teaching
@@ -324,7 +290,6 @@ defaults:
       layout: talk
       author_profile: true
       share: true
->>>>>>> parent of b2b3984 (replacing template)
 
 
 # Sass/SCSS
@@ -346,13 +311,6 @@ plugins:
   - jekyll-gist
   - jekyll-paginate
   - jekyll-sitemap
-<<<<<<< HEAD
-
-header_pages:
-  - _pages/publications.md
-  - _pages/teaching.md
-  - _pages/cv.md
-=======
   - jekyll-redirect-from
   - jemoji
 
@@ -401,4 +359,3 @@ compress_html:
   clippings: all
   ignore:
     envs: development
->>>>>>> parent of b2b3984 (replacing template)
