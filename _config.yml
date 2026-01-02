@@ -1,54 +1,41 @@
-locale: "en-US"
+# Basic
 title: "Zein Pishbin"
 description: "Academic webpage"
+locale: "en-US"
+
 url: "https://PishbinZ.github.io"
-baseurl: ""
+baseurl: ""          # keep empty for username.github.io sites
+
+# Use a stable GitHub Pages supported theme
+theme: minima
+
+# Optional: used by some plugins/themes for links
 repository: "PishbinZ/PishbinZ.github.io"
 
-# If your theme expects this setting, keep it
-site_theme: "default"
-
+# Author (minima can use these; harmless if not)
 author:
   name: "Zein Pishbin"
-  avatar: "profile.png"
+  email: "zeinab.s.pishbin@gmail.com"
   location: "Paris, France"
   employer: "Université Paris Dauphine-PSL"
-  email: "zeinab.s.pishbin@gmail.com"
   googlescholar: "https://scholar.google.com/citations?user=qSy13-cAAAAJ"
+  avatar: "files/profile.png"
 
+# Make sure Jekyll includes these folders in the build
 include:
   - _pages
   - files
+  - assets
 
 markdown: kramdown
-highlighter: rouge
 
-collections:
-  publications:
-    output: true
-    permalink: /publications/:path/
-  teaching:
-    output: true
-    permalink: /teaching/:path/
-
+# Default layout for your _pages/*.md
 defaults:
   - scope:
-      path: ""
+      path: "_pages"
       type: pages
     values:
-      layout: single
-
-  - scope:
-      path: ""
-      type: publications
-    values:
-      layout: single
-
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
+      layout: page
 
 plugins:
   - jekyll-sitemap
