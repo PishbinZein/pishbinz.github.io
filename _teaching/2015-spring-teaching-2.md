@@ -1,20 +1,23 @@
 ---
-title: "Teaching experience 2"
+title: "Teaching experience"
 collection: teaching
-type: "Workshop"
-permalink: /teaching/2015-spring-teaching-1
-venue: "University 1, Department"
-date: 2015-01-01
-location: "City, Country"
+type: ""
+permalink: 
+venue: "University of Tehran | School of Electrical and Computer Engineering"
+date: 
+location: 
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+**Discrete Mathematics**
+* Chief Teaching Assistant | Fall 2023 – Spring 2024
+* Teaching Assistant | Spring 2022 – Spring 2023
 
-Heading 1
-======
+**Algorithm Design**
+* Chief Teaching Assistant | Spring 2024 – Fall 2025
+* Teaching Assistant | Fall 2023
 
-Heading 2
-======
+**Data Structures**
+* Teaching Assistant | Spring 2022 – Spring 2024
 
-Heading 3
-======
+**Introduction to Computing Systems and Programming**
+* Teaching Assistant | Fall 2022 – Spring 2024

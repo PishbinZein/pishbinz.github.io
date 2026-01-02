@@ -17,9 +17,9 @@ name              : &name "Zein Pishbin"
 description       : &description "Zein Pishbin's academic portfolio"
 
 # NOTE: Keep these as-is unless you changed your GitHub Pages URL/repo
-url               : https://academicpages.github.io
+url               : https://PishbinZ.github.io
 baseurl           : "" # e.g. "/my-repo" if hosted at https://username.github.io/my-repo
-repository        : "academicpages/academicpages.github.io"
+repository        : "PishbinZ/PishbinZ.github.io"
 
 # =========================
 # Site Author (Sidebar)
@@ -28,7 +28,7 @@ author:
   avatar          : "files/profile.png"
   name            : "Zein Pishbin"
   pronouns        :
-  bio             :
+  bio             : "Master's student"
   location        : "Paris, France"
   employer        : "Université Paris Dauphine-PSL"
   uri             :
