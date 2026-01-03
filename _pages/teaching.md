@@ -66,8 +66,12 @@ hr {
 <div class="teaching-section">
 
 <div class="teaching-institution">
-University of Tehran | School of Electrical and Computer Engineering
+  University of Tehran<br />
+  <span class="teaching-subtitle">
+    School of Electrical and Computer Engineering
+  </span>
 </div>
+
 
 <div class="teaching-course">Discrete Mathematics</div>
 <ul class="teaching-list">
