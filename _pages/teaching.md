@@ -106,12 +106,12 @@ Girls-only schools administered under the NODET (National Organization for Devel
 
 <div class="teaching-course">Algorithms and Programming</div>
 <ul class="teaching-list">
-  <li><strong>Instructor</strong> | Preparation Class for the Iranian Olympiad in Informatics</li>
+  <li><strong>Instructor</strong> | Preparation Class for the Olympiad in Informatics</li>
 </ul>
 
 <div class="teaching-course">Graph Theory</div>
 <ul class="teaching-list">
-  <li><strong>Instructor</strong> | Preparation Class for the Iranian Olympiad in Informatics</li>
+  <li><strong>Instructor</strong> | Preparation Class for the Olympiad in Informatics</li>
 </ul>
 
 </div>
